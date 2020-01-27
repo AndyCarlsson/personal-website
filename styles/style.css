@@ -1,4 +1,8 @@
-html, body {
+html{
+  font-size: 62.5%;
+}
+
+body {
   height: 100%;
 }
 
@@ -22,7 +26,8 @@ header{
 }
 
 .nav-items a{
-  font-size: 1.2em;
+  font-size: 2em;
+  font-family: sans-serif;
 }
 
 .nav-items a:link{
