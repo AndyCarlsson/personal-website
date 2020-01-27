@@ -4,6 +4,7 @@ html{
 
 body {
   height: 100%;
+  background: #281E1E;
 }
 
 header{
@@ -16,7 +17,7 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 150px;
   width: 500px;
 }
 
@@ -27,10 +28,15 @@ header{
 
 .nav-items a{
   font-size: 2em;
-  font-family: sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 600;
+  color: #fff;
 }
 
 .nav-items a:link{
   text-decoration: none;
-  color: #000;
+  /* color: #fff; */
+}
+
+.nav-items a:visited{
 }
