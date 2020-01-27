@@ -2,19 +2,30 @@ html, body {
   height: 100%;
 }
 
-ul {
+header{
+  display: flex;
+  justify-content: center;
+}
+
+#nav-bar {
   list-style: none;
   display: flex;
   flex-direction: row;
-
-  align-content: center;
+  justify-content: space-between;
   margin-top: 100px;
+  width: 500px;
 }
 
-li{
+.nav-items{
+  flex: 1;
   text-align: center;
-  flex-grow: 1;
 }
 
-header{
+.nav-items a{
+  font-size: 1.2em;
+}
+
+.nav-items a:link{
+  text-decoration: none;
+  color: #000;
 }
