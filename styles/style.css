@@ -11,8 +11,9 @@ header{
   justify-content: left;
   position: relative;
   width: 150px;
-  margin: 150px 0px 0px 30px;
+  margin: 30vh 0px 0px 5vh;
   background: red;
+  float: left;
 }
 
 #nav-bar {
@@ -51,6 +52,9 @@ main{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  float: right;
+  margin-right: 40vh;
+  margin-top: 30vh;
 }
 
 main-container{
