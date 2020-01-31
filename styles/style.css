@@ -8,21 +8,23 @@ body {
 }
 
 header{
-  display: flex;
-  justify-content: center;
+  justify-content: left;
+  position: relative;
+  width: 150px;
+  margin: 150px 0px 0px 30px;
+  background: red;
 }
 
 #nav-bar {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  margin-top: 150px;
-  width: 500px;
+  flex-direction: column;
 }
 
 .nav-items{
   flex: 1;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .nav-items a{
@@ -34,24 +36,15 @@ header{
 
 .nav-items a:link{
   text-decoration: none;
-  /* color: #fff; */
 }
 
 .nav-items a:visited{
 }
 
 .nav-items a:hover{
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  &:hover {
-    background-size: 100% 88%;
 }
 
 .nav-items a:active{
-
 }
 
 main{
@@ -62,7 +55,7 @@ main{
 
 main-container{
   width: 800px;
-  margin-top: 150px;
+  margin-top: 0px;
 }
 
 main #about{
