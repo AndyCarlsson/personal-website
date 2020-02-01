@@ -9,14 +9,12 @@ body {
 
 header{
   justify-content: left;
-  position: relative;
+  position: fixed;
   width: 150px;
   margin: 30vh 0px 0px 5vh;
-  background: red;
-  float: left;
 }
 
-#nav-bar {
+#navbar {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -25,7 +23,7 @@ header{
 .nav-items{
   flex: 1;
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 .nav-items a{
@@ -55,6 +53,7 @@ main{
   float: right;
   margin-right: 40vh;
   margin-top: 30vh;
+  margin-left: 150px;
 }
 
 main-container{
@@ -62,8 +61,22 @@ main-container{
   margin-top: 0px;
 }
 
-main #about{
+#about{
   font-size: 2rem;
   color: #fff;
   font-family: 'Fjalla One', sans-serif;
+}
+
+#skills{
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 30vh;
+}
+
+#education{
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 30vh;
 }
