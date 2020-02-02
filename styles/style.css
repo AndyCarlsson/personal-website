@@ -68,14 +68,20 @@ main-container div{
   color: #fff;
   font-family: 'Fjalla One', sans-serif;
   background: red;
+
+  display: flex;
+  flex-direction: column;
 }
 
-main-container #about p{
+main-container h1 {
   margin-top: 40%;
+}
+
+main-container p{
   background: blue;
 }
 
-main-container #skills p{
+/* main-container #skills p{
   margin-top: 40%;
   background: blue;
 }
@@ -84,3 +90,8 @@ main-container #education p{
   margin-top: 40%;
   background: blue;
 }
+
+main-container #experience p{
+  margin-top: 40%;
+  background: blue;
+} */
