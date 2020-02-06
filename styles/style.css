@@ -45,6 +45,7 @@ header h1{
   flex-direction: row;
   list-style: none;
   color: #fff;
+  margin-top: 6px;
 }
 
 .contact ul li{
@@ -81,6 +82,20 @@ header h1{
   transition: 0.5s;
 }
 
+#nav-about a:hover{
+  color: #FFE600;
+}
+
+#nav-skills a:hover{
+  color: #00FBFF;
+}
+
+#nav-education a:hover{
+}
+
+#nav-experience a:hover{
+}
+
 .navbar ul li a:link{
   text-decoration: none;
 }
@@ -88,9 +103,6 @@ header h1{
 .navbar ul li a:visited{
 }
 
-.navbar ul li a:hover{
-  color: yellow;
-}
 
 .navbar ul li a:active{
 }
