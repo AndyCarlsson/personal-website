@@ -8,7 +8,7 @@ body {
   height: 100vh;
   background: #333;
   line-height: 1.6; /* Kanske inte */
-  color: black;
+  color: #141414;
 }
 
 .container{
@@ -79,31 +79,34 @@ header{
   font-size: 2.4rem;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 600;
-  color: black;
   transition: 0.5s;
+  padding: 4px;
+  color: black;
 }
 
-#nav-about a:hover{
+.navbar a:hover{
+  color: #e1f7d5;
+  background-color: black;
 }
 
-#nav-skills a:hover{
+/* #nav-skills a:hover{
 }
 
 #nav-education a:hover{
 }
 
 #nav-experience a:hover{
-}
+} */
 
-.navbar ul li a:link{
+.navbar a:link{
   text-decoration: none;
 }
 
-.navbar ul li a:visited{
+.navbar a:visited{
 }
 
 
-.navbar ul li a:active{
+.navbar a:active{
 }
 
 .main{
@@ -139,10 +142,12 @@ section#education{
 }
 
 section#experience{
-  background-color: #f1cbff;
+  background-color: #ffffba;
 }
 
 section h1 {
+  text-align: left;
+  font-size: 4rem;
 }
 
 section p{
