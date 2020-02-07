@@ -108,8 +108,7 @@ header h1{
 }
 
 .main{
-  width: 70%;
-  margin-left: 23vw;
+  width: 100%;
 }
 
 section{
@@ -123,10 +122,26 @@ section{
   text-align: left;
 }
 
-section h1 {
+section h1, h2, p{
+  margin-left: 23vw;
+  width: 70%;
 }
 
 section#about{
+  background-color: red;
+}
+
+section#skills{
+  background-color: yellow;
+}
+section#education{
+  background-color: blue;
+}
+section#experience{
+  background-color: green;
+}
+
+section h1 {
 }
 
 section p{
