@@ -52,6 +52,10 @@ header{
   scale: 0.5;
 }
 
+.contact a:visited{
+  color: #fff;
+}
+
 .navbar{
   display: flex;
   justify-content: left;
@@ -85,31 +89,15 @@ header{
   color: black;
 }
 
-/* #nav-skills a:hover{
-}
-
-#nav-education a:hover{
-}
-
-#nav-experience a:hover{
-} */
-
 .navbar a:link{
   text-decoration: none;
-}
-
-.navbar a:visited{
-}
-
-
-.navbar a:active{
 }
 
 .main{
   width: 100%;
 }
 
-section{
+.main section{
   height: 100vh;
   width: 100%;
   font-size: 2rem;
@@ -144,7 +132,4 @@ section#experience{
 section h1 {
   text-align: left;
   font-size: 4rem;
-}
-
-section p{
 }
